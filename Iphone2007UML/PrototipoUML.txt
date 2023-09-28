@@ -1,0 +1,13 @@
+REPRODUTOR MUSICAL
+    - PLAYLISTS
+        - Lista de Playlists
+            - Dentro de cada playlist, uma lista de músicas. 
+    - ARTISTAS
+        - Lista de Artistas 
+            - Pra cada artista, uma lista de músicas 
+    - MÚSICAS
+        - Lista de músicas 
+    - VÍDEOS
+        - Lista de Videos
+    - MAIS...
+        - Não sei o que tem dentro de Mais.
