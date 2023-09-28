@@ -1,6 +1,6 @@
 package Artists;
 
-public class Artist {
+public class Artist implements Comparable<Artist> {
     private String name;
 
     public Artist(String name) {
@@ -9,5 +9,10 @@ public class Artist {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    public int compareTo(Artist a) {
+        return name.compareToIgnoreCase(a.getName());
     }
 }

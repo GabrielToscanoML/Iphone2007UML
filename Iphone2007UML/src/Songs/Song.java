@@ -18,7 +18,7 @@ public class Song {
     public int getSongDurationSec() {return songDurationSec;}
     public String getTitle() {return title;}
 
-    private String convertSecondsInMinutes(int durationSec) {
+    public String convertSecondsInMinutes(int durationSec) {
         int minutes = (durationSec / 60);
         int seconds = durationSec - (minutes * 60);
         return String.format( "%d:%d", minutes, seconds);
@@ -32,9 +32,9 @@ public class Song {
 
 
     // método main para testar a função
-    public static void main(String[] args) {
-        Artist artist = new Artist("Gabriel");
-        Song song = new Song("NomeMusica", 137, artist);
-        song.printSongInfo();
-    }
+    // public static void main(String[] args) {
+    //     Artist artist = new Artist("Gabriel");
+    //     Song song = new Song("NomeMusica", 137, artist);
+    //     song.printSongInfo();
+    // }
 }
